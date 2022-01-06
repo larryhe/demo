@@ -5,7 +5,7 @@ function HomePage() {
         <div>
             <h1>Welcome to Next.js Feedback Demo!</h1>
             <Link href="/static">Static Feedback</Link>
-            <Link href="/dynamic">Dynamic Feedback</Link>
+            <iframe src="/api/simple?target=https://www.nordstrom.com/" />
         </div>
     );
 }
